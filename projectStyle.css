@@ -1,0 +1,215 @@
+body {
+    background-color: rgb(121, 27, 27);
+    font-family: 'DM Serif Display';
+}
+header {
+    background-image: url("https://raduniatlanta.com/images/headerImage.png");
+    filter: brightness(70%);
+    position: relative;
+    text-align: center;
+    color: white;
+}
+    
+
+h1 {
+    padding: .5em;
+    font-size: xx-large;
+    text-align: center;
+    color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    color: #f7e5e5;
+}
+
+nav {
+    background-color: rgb(165, 13, 13);
+    padding: .5em;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-bottom: .5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: .5em;
+}
+
+nav ul li a:hover{
+
+    background-color: rgb(219, 157, 24);
+    border-radius: 10px;
+}
+
+main p {
+    color: #f7e5e5;
+}
+
+#Food_info {
+    display: flex;
+    color: #f7e5e5;
+    padding: 1em;
+    text-align: center;
+}
+
+.Food1 {
+    margin: 2em;
+    padding: 1em;
+    border-radius: 10%;
+    background-color: #c19b9b;
+    color: black;
+    border: rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px;
+}
+
+.Food2 {
+    margin: 2em;
+    padding: 1em;
+    border-radius: 10%;
+    background-color: rgb(171, 112, 112);
+    color: black;
+    border: rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px; 
+}
+
+.Food3 {
+    margin: 2em;
+    padding: 1em;
+    border-radius: 10%;
+    background-color: #834545;
+    color: black;
+    border: rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px;
+
+}
+
+#main-footer {
+    padding: .5em; 
+    color: white;
+    text-align: center;
+    margin: 1em;
+    background-color: rgb(99, 0, 0);
+}
+
+#main-footer a {
+  text-decoration: none;
+  color: white;
+}
+
+#main-footer a:hover {
+  color: blue;
+}
+
+input {
+  border-radius: 10px;
+}
+
+input[type=submit] {
+  cursor: pointer;
+}
+
+.main-hr {
+    width: 30%;
+    border: none;
+    border-top: 1px solid #c3c3c3;
+  }
+  .icon-btn {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #cdcdcd;
+    background: white;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    transition: width 0.2s ease-in-out;
+  }
+  .add-btn:hover {
+    width: 120px;
+  }
+  .add-btn::before,
+  .add-btn::after {
+    transition: width 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 10px;
+    top: calc(50% - 2px);
+    background: rgb(162, 12, 45);
+  }
+  .add-btn::after {
+    right: 14px;
+    overflow: hidden;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+  .add-btn::before {
+    left: 14px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+  }
+  .icon-btn:focus {
+    outline: none;
+  }
+  .btn-txt {
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .add-btn:hover::before,
+  .add-btn:hover::after {
+    width: 4px;
+    border-radius: 2px;
+  }
+  .add-btn:hover .btn-txt {
+    opacity: 1;
+  }
+  .add-icon::after,
+  .add-icon::before {
+    transition: all 0.2s ease-in-out;
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 2px;
+    top: calc(50% - 10px);
+    background: rgb(162, 12, 45);
+    overflow: hidden;
+  }
+  .add-icon::before {
+    left: 22px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+  }
+  .add-icon::after {
+    right: 22px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+  .add-btn:hover .add-icon::before {
+    left: 15px;
+    height: 4px;
+    top: calc(50% - 2px);
+  }
+  .add-btn:hover .add-icon::after {
+    right: 15px;
+    height: 4px;
+    top: calc(50% - 2px);
+  }
+
+  #Social_Media {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#Social_Media {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: .5em;
+}
